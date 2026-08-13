@@ -34,7 +34,6 @@ public class CuentaBancaria {
         return 0.0;
     }
 
-    // Realizar retiro
     public void realizarRetiro(double monto) {
         setSaldo(getSaldo() - monto);
     }
